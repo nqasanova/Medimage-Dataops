@@ -82,6 +82,32 @@ data/reports/dataset_quality_report.md
 data/reports/sample_visualization.png
 ```
 
+## Baseline Model Results
+
+A simple CNN baseline was trained on PathMNIST for 3 epochs.
+
+| Metric | Result |
+|---|---|
+| Test accuracy | 74.83% |
+| Macro F1-score | 0.69 |
+| Weighted F1-score | 0.75 |
+
+The baseline model confirms that the prepared dataset can be used successfully in an AI training workflow.
+
+## Visual Outputs
+
+### Sample Medical Images
+
+![Sample Visualization](data/reports/sample_visualization.png)
+
+### Training Loss
+
+![Training Loss](data/reports/training_loss.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](data/reports/confusion_matrix.png)
+
 ## Disclaimer
 
 This project is for portfolio and educational purposes only. It is not intended for clinical decision-making.
