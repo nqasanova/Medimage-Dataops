@@ -3,8 +3,19 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+.ipynb_checkpoints/
+
 # C extensions
 *.so
+
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+data/raw/
+*.npz
+*.pyc
 
 # Distribution / packaging
 .Python
